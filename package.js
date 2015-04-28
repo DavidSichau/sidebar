@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom("1.0.1");
-  api.use(["templating", "less", "meteor", "ddp", "jquery", "fortawesome:fontawesome"]);
+  api.use(["templating", "less", "meteor", "ddp", "jquery", "fortawesome:fontawesome@4.3.0"]);
 
   api.addFiles("client/sidebar.js", ["client"]);
   api.addFiles("client/sidebar.html", ["client"]);
