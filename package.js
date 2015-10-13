@@ -1,7 +1,7 @@
 Package.describe({
   name: "davidsichau:sidebar",
   summary: "Provide a simple sidebar.",
-  version: "0.1.1",
+  version: "0.2.0",
   git: "https://github.com/DavidSichau/meteor-sidebar"
 });
 
@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom("1.0.1");
   api.use([
     "templating",
-    "less",
+    "less@2.5.0",
     "meteor",
     "ddp",
     "fortawesome:fontawesome@4.3.0"
