@@ -1,7 +1,7 @@
 <template name="sidebarRight">
     <div class="sidebar sidebar-right">
-        <div class="sidebar-toggle fa"></div>
-        <div class="sidebar-content">
+        <div class="sidebar-toggle fa"  style="top: {{top}}"></div>
+        <div class="sidebar-content"  style="padding-top: {{top}}">
             {{> UI.contentBlock}}
         </div>
     </div>
@@ -9,8 +9,8 @@
 
 <template name="sidebarLeft">
     <div class="sidebar sidebar-left">
-        <div class="sidebar-toggle fa"></div>
-        <div class="sidebar-content">
+        <div class="sidebar-toggle fa" style="top: {{top}}"></div>
+        <div class="sidebar-content" style="padding-top: {{top}}">
             {{> UI.contentBlock}}
         </div>
     </div>

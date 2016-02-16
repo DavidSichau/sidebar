@@ -1,7 +1,7 @@
 Package.describe({
   name: "davidsichau:sidebar",
   summary: "Provide a simple sidebar.",
-  version: "0.2.0",
+  version: "0.3.2",
   git: "https://github.com/DavidSichau/meteor-sidebar"
 });
 

@@ -22,4 +22,16 @@ It provides the helpers for implementing simple sidebars
         //your content
     {{/sidebarRight}}
     
-The parameter widht can be used to define the widht of the sidebar
+The parameter width can be used to define the width of the sidebar
+
+To add an parameter for the distance from the top add the following parameter:
+
+    {{#sidebarLeft top="80px"}}
+        //your content
+    {{/sidebarLeft}}
+    
+This is useful with static nav bars
+
+##Changelog
+ - 0.3.0: Added parameter for distance to top
+ - 0.3.2: Increased z-index to 2000
